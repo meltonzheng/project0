@@ -2,40 +2,39 @@
 <html>
     <head>
         <title>Melton Zheng's Page</title>
-        <style>
-          th {
-            font-family: Verdana;
-          }
-          .button {
-            background-color: #00bbff;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 8px;
-          }
-          #title{
-            font-size: 100px;
-            text-align: center;
-            color: black;
-          }
-        </style>
+
+          <link href = "style1.css" type = "text/css" rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     </head>
     <body>
       <table id="navigator">
         <tr>
-          <th><a href="homepage.html" class="button" >Home</a></th>
-          <th><a href="projects.html" class="button">Projects</a></th>
-          <th><a href="games.html" class="button">Games</a></th>
-          <th><a href="contact.html" class="button">Contact</a></th>
-          <th><a href="about.html" class="button">About</a></th>
+          <th><a href="homepage.html" class="button verdana" >Home</a></th>
+          <th><a href="projects.html" class="button verdana">Projects</a></th>
+          <th><a href="games.html" class="button verdana">Games</a></th>
+          <th><a href="contact.html" class="button verdana">Contact</a></th>
+          <th><a href="about.html" class="button verdana">About</a></th>
       </table>
 
       <div>
-          <p id = title>Welcome to Games!</p>
+          <p id = title class = "verdana">Welcome to Games!</p>
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-3">
+                      Game 1
+                  </div>
+                  <div class="col-6">
+                      Game 2
+                  </div>
+                  <div class="col-3">
+                      Game 3
+                  </div>
+              </div>
+          </div>
+
+
       </div>
     </body>
 </html>
