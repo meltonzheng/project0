@@ -1,3 +1,4 @@
+
 textarea {
   width: 600px;
   height: 150px;
@@ -7,6 +8,11 @@ textarea {
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+}
+img{
+  margin: 10px;
+  width: 20%;
+  border: 3px solid black;
 }
   .verdana {
     font-family: Verdana, "Verdana";
