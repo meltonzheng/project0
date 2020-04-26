@@ -2,9 +2,13 @@
 <html>
     <head>
         <title>Melton Zheng's Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+          th {
+            font-family: Verdana;
+          }
           .button {
-            background-color: #4CAF50; /* Green */
+            background-color: #00bbff;
             border: none;
             color: white;
             padding: 15px 32px;
@@ -13,6 +17,24 @@
             display: inline-block;
             font-size: 16px;
             border-radius: 8px;
+          }
+          h1 {
+            font-size: 100px;
+            text-align: center;
+            color: black;
+          }
+
+
+          @media (min-width: 500px) {
+              h1::before {
+                  content: "Welcome to the Homepage!";
+              }
+          }
+
+          @media (max-width: 499px) {
+              h1::before {
+                  content: "Welcome!";
+              }
           }
         </style>
     </head>
@@ -25,5 +47,10 @@
           <th><a href="contact.html" class="button">Contact</a></th>
           <th><a href="about.html" class="button">About</a></th>
       </table>
+
+      <div>
+          <h1></h1>
+      </div>
+
     </body>
 </html>
